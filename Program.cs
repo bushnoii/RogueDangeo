@@ -14,9 +14,11 @@ namespace RogueDangeo
 
             int playerHealth = 100, maxHealth = 100, gold = 0,
                 posX = 0, posY = 0, enemyDamage = 0;
+            Console.BackgroundColor = Cosnole.Color.Cyan;
             Console.WriteLine("----");
             Console.WriteLine("|  |");
             Console.WriteLine("#####");
+            Console.ResetColor();
             //отрисовывает игрока
             Console.SetCursorPosition(posX, posY);
             Console.ForegroundColor = ConsoleColor.Green;
